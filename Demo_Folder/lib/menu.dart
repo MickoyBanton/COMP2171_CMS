@@ -63,8 +63,7 @@ class MenuPage extends StatelessWidget {
                 child: Text('Registered Clubs'),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
+                foregroundColor: Colors.white, backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
                 ),
@@ -89,8 +88,7 @@ class MenuPage extends StatelessWidget {
                 child: Text('Club Search'),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
+                foregroundColor: Colors.white, backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
                 ),
@@ -107,8 +105,7 @@ class MenuPage extends StatelessWidget {
                 child: Text('Notifications'),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
+                foregroundColor: Colors.white, backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
                 ),
@@ -125,8 +122,7 @@ class MenuPage extends StatelessWidget {
                 child: Text('User Profile'),
               ),
               style: ElevatedButton.styleFrom(
-                primary: Colors.blue,
-                onPrimary: Colors.white,
+                foregroundColor: Colors.white, backgroundColor: Colors.blue,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8.0),
                 ),
